@@ -7,9 +7,9 @@ let patroclo = [];
 let flecha;
 
 function preload() {
-  bold = loadFont ('assets/roboto-bold.ttf');
-  light = loadFont ('assets/roboto-light.ttf');
-  fuente = loadFont ('assets/greek-freak.ttf');
+  bold = loadFont ('assets/Roboto-Bold.ttf');
+  light = loadFont ('assets/Roboto-Light.ttf');
+  fuente = loadFont ('assets/Greek-Freak.ttf');
   flecha = loadImage('assets/flecha.png');
   for ( let i = 0; i < 3; i++ ) {
     patroclo[i] = loadImage('assets/patroclo'+i+'.png');
